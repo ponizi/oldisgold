@@ -14,7 +14,7 @@ class VisitorController < ApplicationController
    else
     flash[:danger] = "Message non remis (un/des champ(s) n'ont pas été complétés)"
    end
-   redirect_to root_path
+   redirect_to root_path(anchor: 'tips')
   end
 
   def visitor_params
