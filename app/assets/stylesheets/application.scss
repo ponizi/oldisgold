@@ -29,11 +29,11 @@
  .jumboindex {
   background-image: image-url("jumbo.jpg");
   background-size: cover;
-  height: 850px;
+  height: 775px;
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 
   margin-bottom:0;
 }
