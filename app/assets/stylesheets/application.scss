@@ -13,6 +13,19 @@
  *= require_tree .
  *= require_self
  */
+#section1 {
+  display: flex;
+  justify-content: center;
+}
+
+ #exampleCheck1{
+  color:black;
+}
+#smalltxt{
+  color:black;
+  font-size: 10px;
+  text-align: justify;
+}
  .jumboindex {
   background-image: image-url("jumbo.jpg");
   background-size: cover;
