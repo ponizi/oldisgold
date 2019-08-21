@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
+.table {
+margin-bottom: -50px;
+}
 #section1 {
   display: flex;
   justify-content: center;
