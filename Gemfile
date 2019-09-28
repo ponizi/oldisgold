@@ -62,4 +62,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'table_print', '~> 1.5', '>= 1.5.6'
-gem 'devise', '~> 4.2'
+gem 'devise', '~> 4.7'
