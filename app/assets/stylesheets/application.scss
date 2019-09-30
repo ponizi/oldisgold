@@ -13,6 +13,110 @@
  *= require_tree .
  *= require_self
  */
+ @media screen and (min-width: 700px) {
+  .column {
+    width: 100%;
+  }
+  .container.column{
+  margin-left: 60%;
+  }
+  #titlepage {
+    margin-left:50%;
+    margin-bottom: 50px;
+
+  }
+  #section2 img {
+    width: 40%;
+    height: auto;
+  }
+ }
+ @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+  #section2 {
+    flex-direction: column-reverse;
+  }
+  #cover-caption {
+    margin-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+}
+#emptycontainer {
+  margin-right: 20px;
+}
+
+
+#titlepage {
+  text-align: center;
+
+}
+.container4 {
+margin-top: 5%;
+}
+
+.lead.text-center {
+  margin-bottom: 0px;
+}
+#intersection.section{
+  text-align: center;
+  background-color: #f8f8f8;
+  padding-top: 30px;
+}
+
+#intersection.section h1 {
+  color: #9C9C9C !important;
+}
+#section1.container h1 {
+  color: #9C9C9C !important;
+}
+
+#section2 {
+  padding-top: 0px;
+  background-color: #f8f8f8;
+  display: flex;
+}
+
+#section1.container {
+  padding-top: 10%;
+  color: #CFCFCF;
+}
+
+
+.btn.btn-info.btn-lg.btn-block {
+  border-radius: 6px;
+}
+.titleform {
+  text-align: center;
+}
+
+.formcontainer {
+  padding: 12px;
+  color: grey;
+}
+
+#cover-caption {
+  background-color: white;
+  border-radius: 6px;
+  justify-content: flex-end;
+  flex-direction: column;
+
+}
+
+
+#cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+ .logowrap {
+   padding-top: 30px;
+ }
 .table {
 margin-bottom: -50px;
 }
@@ -32,20 +136,9 @@ margin-bottom: -50px;
  .jumboindex {
   background-image: image-url("jumbo.jpg");
   background-size: cover;
-  color: white; 
-}
-.btnjumbo {
-  
-  color: white;
-  width: 70px;
-  height: 70px;
-  padding: 16px 16px;
-  border-radius: 35px;
-  font-size: 24px;
-  line-height: 1.33;
-  align-items: center;
-  background-color: transparent;
-  border-color: white;
+  color: black; 
+  margin-bottom: 0px;
+  background-repeat:no-repeat;
 }
 h1 {
   color: black;

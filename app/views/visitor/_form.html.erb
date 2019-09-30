@@ -1,8 +1,6 @@
 <section id="cover">
     <div id="cover-caption">
-        <div id="container" class="container">
-            <div class="row text-white">
-                <div class="col-sm-6 offset-sm-3 text-center">
+        <div id="container1" class="container">
                     <h1 class="display-10">DEMANDE DE CONTACT</h1>
                     <div class="info-form">
                         <%= form_for @visitor, url: visitor_index_path, html: {action: :post, class: "form-signin mt-3" } do |f| %>
@@ -13,8 +11,6 @@
                             <%= submit_tag "Valider", :class => 'w-100 btn btn-primary'  %>
                           </div>
                        <% end %>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
